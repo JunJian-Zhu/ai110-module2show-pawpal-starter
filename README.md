@@ -30,12 +30,7 @@ PawPal+ lets you manage care tasks (walks, feedings, vet visits, grooming, medic
 
 The project is organized into four classes, visualized in [`uml_diagram.mmd`](uml_diagram.mmd):
 
-```
-Owner ──owns──► Pet ──has──► Task
-  ▲
-  │ manages
-Scheduler
-```
+![UML Class Diagram](Pet%20Task%20Management%20uml.png)
 
 - **`Task`** (dataclass) — a single care action with description, due time, frequency, priority, and completion state
 - **`Pet`** (dataclass) — a pet with personal info and a list of tasks
@@ -98,7 +93,7 @@ The test suite in [`tests/test_pawpal.py`](tests/test_pawpal.py) covers:
 - `get_daily_schedule()` excludes tasks on other dates
 - Edge cases: empty owner, pet with no tasks
 
-**Confidence: ⭐⭐⭐⭐⭐** — all algorithmic paths and edge cases covered by 18 tests.
+**Confidence: ⭐⭐⭐⭐⭐** — all algorithmic paths and edge cases covered by 21 tests.
 
 ---
 
@@ -115,6 +110,8 @@ Runs a full demo: creates an owner with Buddy (dog) and Whiskers (cat), adds 8 t
 streamlit run app.py
 ```
 Opens the interactive UI at `http://localhost:8501` with sidebar navigation for Owner Setup, Add Pet, Add Task, View Schedule, and Manage Tasks.
+
+![Streamlit UI Screenshot](Screenshot.png)
 
 ---
 
@@ -150,7 +147,7 @@ python -m pytest
 ├── main.py               # CLI demo with tabulate tables
 ├── app.py                # Streamlit UI
 ├── tests/
-│   └── test_pawpal.py    # Pytest suite (18 tests)
+│   └── test_pawpal.py    # Pytest suite (21 tests)
 ├── data.json             # Persistence file (auto-created by main.py or app)
 ├── uml_diagram.mmd       # Mermaid.js UML class diagram
 ├── reflection.md         # Design and AI collaboration reflection
