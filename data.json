@@ -1,0 +1,94 @@
+{
+  "name": "Alex Rivera",
+  "contact_info": "alex@pawpal.com",
+  "pets": [
+    {
+      "name": "Buddy",
+      "species": "dog",
+      "breed": "Labrador",
+      "age": 3,
+      "tasks": [
+        {
+          "description": "Morning walk",
+          "due_time": "2026-03-26T03:00:00",
+          "frequency": "daily",
+          "priority": "High",
+          "pet_name": "Buddy",
+          "is_complete": true
+        },
+        {
+          "description": "Breakfast",
+          "due_time": "2026-03-26T02:00:00",
+          "frequency": "daily",
+          "priority": "High",
+          "pet_name": "Buddy",
+          "is_complete": false
+        },
+        {
+          "description": "Grooming session",
+          "due_time": "2026-03-26T09:00:00",
+          "frequency": "weekly",
+          "priority": "Medium",
+          "pet_name": "Buddy",
+          "is_complete": false
+        },
+        {
+          "description": "Flea medication",
+          "due_time": "2026-03-26T04:00:00",
+          "frequency": "once",
+          "priority": "Low",
+          "pet_name": "Buddy",
+          "is_complete": false
+        },
+        {
+          "description": "Obedience training",
+          "due_time": "2026-03-26T03:00:00",
+          "frequency": "once",
+          "priority": "Medium",
+          "pet_name": "Buddy",
+          "is_complete": false
+        },
+        {
+          "description": "Morning walk",
+          "due_time": "2026-03-27T03:00:00",
+          "frequency": "daily",
+          "priority": "High",
+          "pet_name": "Buddy",
+          "is_complete": false
+        }
+      ]
+    },
+    {
+      "name": "Whiskers",
+      "species": "cat",
+      "breed": "Siamese",
+      "age": 5,
+      "tasks": [
+        {
+          "description": "Playtime",
+          "due_time": "2026-03-26T05:00:00",
+          "frequency": "daily",
+          "priority": "Medium",
+          "pet_name": "Whiskers",
+          "is_complete": false
+        },
+        {
+          "description": "Vet check-up",
+          "due_time": "2026-03-26T06:00:00",
+          "frequency": "once",
+          "priority": "High",
+          "pet_name": "Whiskers",
+          "is_complete": false
+        },
+        {
+          "description": "Litter cleaning",
+          "due_time": "2026-03-26T07:00:00",
+          "frequency": "daily",
+          "priority": "Low",
+          "pet_name": "Whiskers",
+          "is_complete": false
+        }
+      ]
+    }
+  ]
+}
